@@ -1,16 +1,18 @@
 import skills from "../../data/skills";
 
-
 function Skills() {
   return (
-    <section id="skills" className="px-6 py-20">
+    <section
+      id="skills"
+      className="bg-white px-6 py-20 transition-colors duration-300 dark:bg-gray-950"
+    >
       <div className="mx-auto max-w-5xl">
-        <h2 className="text-center text-3xl font-bold sm:text-4xl">
+        <h2 className="text-center text-3xl font-bold text-gray-900 dark:text-white sm:text-4xl">
           My Skills
         </h2>
 
         <div className="mt-10">
-          <h3 className="mb-4 text-xl font-semibold">
+          <h3 className="mb-4 text-xl font-semibold text-gray-800 dark:text-gray-200">
             Primary Skills
           </h3>
 
@@ -18,7 +20,7 @@ function Skills() {
             {skills.primary.map((skill) => (
               <span
                 key={skill}
-                className="rounded-full border border-gray-300 px-4 py-2 text-sm font-medium"
+                className="rounded-full border border-gray-300 px-4 py-2 text-sm font-medium text-gray-700 transition-colors dark:border-gray-700 dark:text-gray-200"
               >
                 {skill}
               </span>
@@ -27,7 +29,7 @@ function Skills() {
         </div>
 
         <div className="mt-10">
-          <h3 className="mb-4 text-xl font-semibold">
+          <h3 className="mb-4 text-xl font-semibold text-gray-800 dark:text-gray-200">
             Additional Skills
           </h3>
 
@@ -35,7 +37,7 @@ function Skills() {
             {skills.additional.map((skill) => (
               <span
                 key={skill}
-                className="rounded-full border border-gray-300 px-4 py-2 text-sm font-medium"
+                className="rounded-full border border-gray-300 px-4 py-2 text-sm font-medium text-gray-700 transition-colors dark:border-gray-700 dark:text-gray-200"
               >
                 {skill}
               </span>

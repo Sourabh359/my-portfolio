@@ -5,9 +5,9 @@ function Projects() {
   return (
     <section
       id="projects"
-      className="mx-auto max-w-7xl px-6 py-16"
+      className="mx-auto max-w-7xl bg-white px-6 py-16 transition-colors duration-300 dark:bg-gray-950"
     >
-      <h2 className="mb-10 text-center text-3xl font-bold text-gray-900">
+      <h2 className="mb-10 text-center text-3xl font-bold text-gray-900 dark:text-white">
         My Projects
       </h2>
 
@@ -15,13 +15,13 @@ function Projects() {
         {projects.map((project) => (
           <div
             key={project.id}
-            className="flex h-full flex-col rounded-xl border border-gray-200 bg-white p-6 shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-lg"
+            className="flex h-full flex-col rounded-xl border border-gray-200 bg-white p-6 shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-lg dark:border-gray-700 dark:bg-gray-900"
           >
-            <h3 className="mb-3 text-xl font-semibold text-gray-900">
+            <h3 className="mb-3 text-xl font-semibold text-gray-900 dark:text-white">
               {project.title}
             </h3>
 
-            <p className="mb-5 flex-1 leading-7 text-gray-600">
+            <p className="mb-5 flex-1 leading-7 text-gray-600 dark:text-gray-400">
               {project.description}
             </p>
 
@@ -50,7 +50,7 @@ function Projects() {
                 href={project.githubLink}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="rounded-lg border border-gray-300 px-4 py-2 text-sm font-medium text-gray-700 transition hover:bg-gray-100"
+                className="rounded-lg border border-gray-300 px-4 py-2 text-sm font-medium text-gray-700 transition hover:bg-gray-100 dark:border-gray-600 dark:text-gray-200 dark:hover:bg-gray-800"
               >
                 GitHub
               </a>
