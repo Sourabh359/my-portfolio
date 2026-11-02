@@ -29,8 +29,7 @@ function Projects() {
               {project.technologies.map((tech) => (
                 <span
                   key={tech}
-                  className="rounded-full bg-blue-100 px-3 py-1 text-sm font-medium text-blue-700"
-                >
+                  className="rounded-full bg-blue-100 px-3 py-1 text-sm font-medium text-blue-700  dark:bg-blue-950 dark:text-blue-300">
                   {tech}
                 </span>
               ))}

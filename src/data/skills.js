@@ -15,6 +15,9 @@ const skills = {
     "Node.js",
     "Express.js",
     "MongoDB",
+    "Sass",
+    "Git",
+    "GitHub"
   ],
 };
 

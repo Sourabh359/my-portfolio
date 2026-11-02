@@ -14,7 +14,7 @@ function Contact() {
                 </p>
 
                 <div className="flex flex-wrap justify-center gap-4">
-                    <a href="mailto:maliksourabh503@gmail.com"                    className="rounded-lg bg-blue-600 px-5 py-3 font-medium text-white transition hover:bg-blue-700" >
+                    <a href="mailto:maliksourabh503@gmail.com" className="rounded-lg bg-blue-600 px-5 py-3 font-medium text-white transition hover:bg-blue-700" >
                         Email Me
                     </a>
 

@@ -1,5 +1,4 @@
 
-
 function Navbar({ darkMode, setDarkMode }) {
   return (
     <nav className="sticky top-0 z-50 border-b border-gray-200 bg-white/95 px-4 py-4 backdrop-blur dark:border-gray-700 dark:bg-gray-950/95 sm:px-6">
